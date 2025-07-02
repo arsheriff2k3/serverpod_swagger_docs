@@ -65,7 +65,7 @@ export default function Home() {
             <h3 className="text-lg font-semibold mb-2">1. Add the package to your pubspec.yaml</h3>
             <CodeBlock
               language="yaml"
-              code={`dependencies:\n  serverpod: ^2.8.0\n  serverpod_swagger: ^0.1.4`}
+              code={`dependencies:\n  serverpod: ^2.8.0\n  serverpod_swagger: ^0.1.5`}
               fileName="pubspec.yaml"
             />
           </div>

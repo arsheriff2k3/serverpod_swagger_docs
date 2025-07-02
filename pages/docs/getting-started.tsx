@@ -28,7 +28,7 @@ export default function GettingStarted() {
       
       <CodeBlock
         language="yaml"
-        code={`dependencies:\n  serverpod: ^2.8.0\n  serverpod_swagger: ^0.1.4`}
+        code={`dependencies:\n  serverpod: ^2.8.0\n  serverpod_swagger: ^0.1.5`}
         fileName="pubspec.yaml"
       />
       
