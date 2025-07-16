@@ -26,21 +26,6 @@ export default function SwaggerUIRoute() {
         code={`SwaggerUIRoute(
   Directory projectDirectory, {
   String mountPath = '/swagger/',
-  String apiSpecPath = 'apispec.json',
-  String title = 'Swagger UI',
-  String? customCssUrl,
-  String? customJsUrl,
-  bool enableDeepLinking = true,
-  bool showExtensions = false,
-  bool showCommonExtensions = false,
-  int defaultModelsExpandDepth = 1,
-  int defaultModelExpandDepth = 1,
-  bool displayOperationId = false,
-  bool displayRequestDuration = false,
-  bool filter = false,
-  bool showMutatedRequest = true,
-  bool tryItOutEnabled = false,
-  bool persistAuthorization = false,
 })`}
       />
       
