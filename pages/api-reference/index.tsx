@@ -21,7 +21,10 @@ export default function APIReference() {
       
       <CodeBlock
         language="dart"
-        code={`SwaggerUIRoute(\n  Directory projectDirectory, {\n  String mountPath = '/swagger/',\n  String apiSpecPath = 'apispec.json',\n  String title = 'Swagger UI',\n  String? customCssUrl,\n  String? customJsUrl,\n  bool enableDeepLinking = true,\n  bool showExtensions = false,\n  bool showCommonExtensions = false,\n  int defaultModelsExpandDepth = 1,\n  int defaultModelExpandDepth = 1,\n  bool displayOperationId = false,\n  bool displayRequestDuration = false,\n  bool filter = false,\n  bool showMutatedRequest = true,\n  bool tryItOutEnabled = false,\n  bool persistAuthorization = false,\n})`}
+        code={`SwaggerUIRoute(
+  Directory projectDirectory, {
+  String mountPath = '/swagger/',
+})`}
       />
       
       <h3>Parameters</h3>
